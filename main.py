@@ -2,8 +2,8 @@ import telebot
 from telebot import types
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-bot = telebot.TeleBot('6213857128:AAENvQ87pNatvEW2ZU-VWFk7F51ufdHNm9Q')
-chat_id = -1001922515746
+bot = telebot.TeleBot('#botAPI')
+chat_id = #chatID
 
 
 @bot.message_handler(commands=['start'])
